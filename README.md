@@ -13,6 +13,8 @@ This year was no different.  But, I really didn't want to let it go this time.
 
 So, with no PCB creation experience and severe time limitation I set out on the quest for the badge.
 
+--@alt_bier
+
 ## Timeline and Simplicity
 
 I figured in order to make the timeline I would have to keep the board simple.
