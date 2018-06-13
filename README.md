@@ -126,7 +126,16 @@ At first I though the solder mask color would be a big issue for my beer bottle 
 But, then I found that most the cheap PCB places do not offer Brown solder mask and those that do charge a lot for it.
 I was planning on the white silkscreen anyway, so with a green bottle we will be rocking Rolling Rock badges.  LOL
 
+## Summary
 
+This crazy badge creation bug got in my head at a DHA meeting on a Wednesday night and seven days later
+I have a badge PCB prototype run on order and will be presenting this at a DC214 meeting.
+
+One week from start to finish is not bad considering I've never done this before.
+
+I just hope it turns out good and that people receiving the badges are not too mad about all the soldering needed to make it functional.
+
+--@alt_bier
 
 
 
