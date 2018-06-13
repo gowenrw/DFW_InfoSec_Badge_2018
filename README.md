@@ -94,8 +94,40 @@ of the limitations is that most the LEDs do not have all three colors on analog 
  
 These are the pins that allow you to do ```analogWrite``` to fade an LED on or off.
 
-Since only ```digitalWrite``` will need to be used for consistency this means LEDs will be
+Since only ```digitalWrite``` will need to be used for consistency this means the RGB LED colors will be
 on or off when they are set to ```HIGH``` or ```LOW``` and cannot be faded.
+So, where you can turn on red and blue to make purple, you cannot fade them to get pink or lavender.
+
+## Gerber Files
+
+What allowed me to use Fritzing at all for PCB creation was its ability to export Gerber files for manufacturing.
+
+These are the files and format that most of the PCB manufacturing sites require to build your design.
+
+The Gerber files that are shown here are exports from Fritzing that were sent to be produced.
+
+I've included them here so that if the board turns out good and someone wants to make more they can do so
+without having to do any of the design work.  Simply send the manufacturer the Gerber files.
+
+### Layer and Color Limitation
+
+While Fritzing will output Gerber files it does so with some limitations.
+
+The first limitation is regarding the Solder Mask layers and the fact that Fritzing ignores any such layers
+provided by your Custom PCB SVG file.  It will always use Green solder mask that covers your board front and back.
+
+While some PCB manufacturers allow you to change the color of the solder mask during ordering, others do not.
+
+The second limitation is regarding the Silkscreen layers and the fact that Fritzing always changes the color to white.
+
+While some PCB manufacturers allow you to change the silkscreen color during ordering, others do not.
+
+At first I though the solder mask color would be a big issue for my beer bottle shaped board.
+But, then I found that most the cheap PCB places do not offer Brown solder mask and those that do charge a lot for it.
+I was planning on the white silkscreen anyway, so with a green bottle we will be rocking Rolling Rock badges.  LOL
+
+
+
 
 
 
