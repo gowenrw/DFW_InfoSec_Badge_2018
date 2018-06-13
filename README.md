@@ -87,7 +87,7 @@ I then wrote a quick Arduino script to test all five RGB LED functionality via t
 
 It's some simple sloppy code, but got the job done... the circuit works.
 
-### Code Limitation
+##### Code Limitation
 
 Because of the specific pins I had to use to each LED in order to keep it single layer, one 
 of the limitations is that most the LEDs do not have all three colors on analog or pwm pins. 
@@ -109,7 +109,7 @@ The Gerber files that are shown here are exports from Fritzing that were sent to
 I've included them here so that if the board turns out good and someone wants to make more they can do so
 without having to do any of the design work.  Simply send the manufacturer the Gerber files.
 
-### Layer and Color Limitation
+##### Layer and Color Limitation
 
 While Fritzing will output Gerber files it does so with some limitations.
 
