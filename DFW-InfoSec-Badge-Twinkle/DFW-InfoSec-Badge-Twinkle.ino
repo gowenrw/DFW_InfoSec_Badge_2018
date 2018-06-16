@@ -1,7 +1,7 @@
 /* **************************
- *  Color Walk
- *  This program will walk each color around
- *  all five LEDs in a specified color order
+ *  Twinkle
+ *  This program will choose random colors for
+ *  all five LEDs to create a twinkle effect
  * ************************** */
 
 // Define Pins
@@ -61,11 +61,11 @@ void loop()
   // Set Delay for each transition [in ms]
   int DelayTime = 100;
 
-  // Color Order in R,G,B Binary Values
-  // White Red Yellow Green Cyan Blue Magenta OFF
-  char Color[8][3] = {
-    {1, 1, 1}, {1, 0, 0}, {1, 1, 0}, {0, 1, 0},
-    {0, 1, 1}, {0, 0, 1}, {1, 0, 1}, {0, 0, 0}
+  // Color to Twinkle With in R,G,B Binary Values
+  // White Red Yellow Green Cyan Blue Magenta OFFx5
+  char Color[12][3] = {
+    {1, 1, 1}, {1, 0, 0}, {1, 1, 0}, {0, 1, 0}, {0, 1, 1}, {0, 0, 1}, {1, 0, 1}, 
+    {0, 0, 0}, {0, 0, 0}, {0, 0, 0}, {0, 0, 0}, {0, 0, 0}
   };
 
   // LED Pin Array
@@ -77,13 +77,12 @@ void loop()
     {LED5_RED, LED5_GREEN, LED5_BLUE}
   };
 
-  for (int c = 0; c < 8; c++) {               // Color Loop (MAX = Color[n])
-      for (int l = 0; l < 5; l++) {           // LEDs (MAX = LED[n])
-        for (int i = 0; i < 3; i++) {         // Individual Colors (MAX = 3 rgb)
-          digitalWrite(LED[l][i], Color[c][i]); 
-        }
-        delay(DelayTime);
-      }
+  for (int l = 0; l < 5; l++) {           // LEDs (MAX = LED[n])
+    int c = random(12);
+    for (int i = 0; i < 3; i++) {         // Individual Colors (MAX = 3 rgb)
+      digitalWrite(LED[l][i], Color[c][i]); 
+    }
+    delay(DelayTime);
   }
 
 }
