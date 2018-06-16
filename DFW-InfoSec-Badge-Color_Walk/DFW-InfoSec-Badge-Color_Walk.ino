@@ -21,13 +21,13 @@
 #define LED3_GREEN 9
 #define LED3_BLUE 10
 
-#define LED4_RED 18
-#define LED4_GREEN 17
-#define LED4_BLUE 16
+#define LED4_RED 15
+#define LED4_GREEN 12
+#define LED4_BLUE 11
 
-#define LED5_RED 15
-#define LED5_GREEN 12
-#define LED5_BLUE 11
+#define LED5_RED 18
+#define LED5_GREEN 17
+#define LED5_BLUE 16
 
 
 void setup()
