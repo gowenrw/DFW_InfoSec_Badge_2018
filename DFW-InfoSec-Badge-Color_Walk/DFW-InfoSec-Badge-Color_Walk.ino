@@ -59,13 +59,18 @@ void loop()
 {
   
   // Set Delay for each transition [in ms]
-  int DelayTime = 100;
+  int DelayTime = 150;
 
   // Color Order in R,G,B Binary Values
-  // White Red Yellow Green Cyan Blue Magenta OFF
-  char Color[8][3] = {
-    {1, 1, 1}, {1, 0, 0}, {1, 1, 0}, {0, 1, 0},
-    {0, 1, 1}, {0, 0, 1}, {1, 0, 1}, {0, 0, 0}
+  // White OFF Red OFF 
+  // Yellow OFF Green OFF 
+  // Cyan OFF Blue OFF
+  // Magenta OFF
+  char Color[14][3] = {
+    {1, 1, 1}, {0, 0, 0}, {1, 0, 0}, {0, 0, 0}, 
+    {1, 1, 0}, {0, 0, 0}, {0, 1, 0}, {0, 0, 0}, 
+    {0, 1, 1}, {0, 0, 0}, {0, 0, 1}, {0, 0, 0}, 
+    {1, 0, 1}, {0, 0, 0}
   };
 
   // LED Pin Array
@@ -77,7 +82,7 @@ void loop()
     {LED5_RED, LED5_GREEN, LED5_BLUE}
   };
 
-  for (int c = 0; c < 8; c++) {               // Color Loop (MAX = Color[n])
+  for (int c = 0; c < 14; c++) {               // Color Loop (MAX = Color[n])
       for (int l = 0; l < 5; l++) {           // LEDs (MAX = LED[n])
         for (int i = 0; i < 3; i++) {         // Individual Colors (MAX = 3 rgb)
           digitalWrite(LED[l][i], Color[c][i]); 
