@@ -1,0 +1,42 @@
+*Pick And Place List
+*Company=
+*Author=
+*eMail=
+*
+*Project=DFW-InfoSec-Badge-2018
+*Date=17:46:23
+*CreatedBy=Fritzing 0.9.3b.04.19.5c895d327c44a3114e5fcc9d8260daf0cbb52806
+*
+*
+*Coordinates in mm, always center of component
+*Origin 0/0=Lower left corner of PCB
+*Rotation in degree (0-360, math. pos.)
+*
+*No;Value;Package;X;Y;Rotation;Side;Name
+1;150;THT;52.1377;-22.0601;0;Bottom;R6
+2;150;THT;19.6257;-24.6001;180;Bottom;R8
+3;;5 mm [THT];35.6278;-92.0704;90;Bottom;LED4
+4;;THT;23.4357;-41.1101;0;Bottom;J2
+5;150;THT;19.6257;-9.36007;180;Bottom;R14
+6;150;THT;19.6257;-29.6801;180;Bottom;R1
+7;9V;;51.1217;-44.9201;90;Bottom;VCC1
+8;150;THT;19.6257;-11.9001;180;Bottom;R15
+9;;5 mm [THT];42.7398;-67.6864;90;Bottom;LED2
+10;;THT;48.3277;-13.1701;0;Bottom;J3
+11;150;THT;52.1377;-27.1401;0;Bottom;R4
+12;150;THT;19.6257;-16.9801;180;Bottom;R11
+13;150;THT;19.6257;-32.2201;180;Bottom;R2
+14;;5 mm [THT];28.0078;-67.6864;90;Bottom;LED1
+15;;;48.1616;-46.9278;0;Bottom;TXT1
+16;150;THT;19.6257;-19.5201;180;Bottom;R10
+17;150;THT;19.6257;-22.0601;180;Bottom;R9
+18;;THT;48.3277;-34.7601;0;Bottom;J4
+19;;5 mm [THT];47.3118;-82.4184;90;Bottom;LED5
+20;150;THT;19.6257;-14.4401;180;Bottom;R12
+21;;;35.6277;-27.1316;0;Bottom;Part1
+22;150;THT;19.6257;-27.1401;180;Bottom;R7
+23;;;54.5859;-42.9434;-90;Bottom;TXT1
+24;150;THT;52.1377;-24.6001;0;Bottom;R5
+25;150;THT;52.1377;-19.5201;0;Bottom;R13
+26;;5 mm [THT];22.9278;-82.4184;90;Bottom;LED3
+27;150;THT;19.6257;-34.7601;180;Bottom;R3
