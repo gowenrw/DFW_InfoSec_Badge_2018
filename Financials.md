@@ -30,12 +30,16 @@ Here is a list of actual expenses (so far) and projected expenses by category:
     * Various components to test with including three types of RGB LED's, resistors, header pins, 9V battery connectors, etc.
         * QTY Varies From [https://lcsc.com/](https://lcsc.com/) cost $80.52
         * Shipping on above cost $38.00
+    * Different Resistors from above and more Solder
+        * QTY Varies From [https://www.amazon.com/](https://www.amazon.com/) cost $38.13
     * 9V Batteries
         * QTY 8 From [https://www.amazon.com/](https://www.amazon.com/) cost $9.99
     * Double CR2032 Battery Holder with On/Off switch for testing (to replace the 9V design)
         * QTY 4 From [https://www.amazon.com/](https://www.amazon.com/) cost $6.99
-    * CR2031 Batteries
+    * CR2032 Batteries
         * QTY 10 From [https://www.amazon.com/](https://www.amazon.com/) cost $6.69
+    * CR2016 Batteries
+        * QTY 10 From [https://www.amazon.com/](https://www.amazon.com/) cost $6.99
     * Arduino Nano V3 boards
         * QTY 20 From [https://www.ebay.com](https://www.ebay.com) cost $59.98
         * Shipping on above cost $6.00
@@ -43,33 +47,41 @@ Here is a list of actual expenses (so far) and projected expenses by category:
         * QTY 20 From [https://www.amazon.com/](https://www.amazon.com/) cost $26.98
 * Production board manufacture
     * Production PCB boards
-        * PROJECTED QTY 300 @ ~$3/pcb = $900
-        * PROJECTED Shipping on above cost $45
+        * QTY 300 From From [https://jlcpcb.com/](https://jlcpcb.com/) cost $599.42
+        * Shipping on above cost $240.78
 * Production components
     * Arduino Nano V3 boards
         * QTY 10 From [https://www.ebay.com](https://www.ebay.com) cost $27.50
         * Shipping on above cost $4
-        * PROJECTED QTY 20 @ ~$3/pc = $60
+        * QTY 10 From [https://www.ebay.com](https://www.ebay.com) cost $27.50 (free shipping)
+        * PROJECTED QTY 10 @ ~$3/pc = $30
     * USB Cable A Male to Mini-B Male (for programming Arduino's)
         * QTY 10 From [https://www.amazon.com/](https://www.amazon.com/) cost $12.99
-        * PROJECTED QTY 20 @ ~$1.30/pc = $26    
+        * PROJECTED QTY 20 @ ~$1.30/pc = $26
     * Arduino Nano V3 boards (CH340 USB chip) INCLUDING USB Cable A Male to Mini-B Male
         * QTY 100 From [https://www.alibaba.com/](https://www.alibaba.com/) cost $286.00
         * Shipping on above cost $40
+        * QTY 10 From [https://www.ebay.com](https://www.ebay.com) cost $33.80 (free shipping)
+        * QTY 20 From [https://www.ebay.com](https://www.ebay.com) cost $68.36 (free shipping)
     * RGB LEDs and Resistors
-        * PROJECTED QTY 800 @ ~$12/100+$30Shipping = $126
-    * Header pins and other small optional parts
-        * PROJECTED QTY 800 @ ~$2/100 = $16
-    * Batteries
-        * PROJECTED QTY 150 @ ~$1.5/pc = $225
+        * QTY 600 LEDs and resistors and headers From [https://lcsc.com/](https://lcsc.com/) cost inc. shipping $101.01
+        * QTY 500 LEDs From [https://www.alibaba.com/](https://www.alibaba.com/) cost inc. shipping $53.20
+    * Battery Holder - 6v 2x3V CR2032 with on/off Switch Lead Wire Type
+        * QTY 30 (4x15 pack) From [https://www.amazon.com/](https://www.amazon.com/) cost $47.96
+        * QTY 120 (10x12 pack)  From [https://www.amazon.com/](https://www.amazon.com/) cost $38.90
+    * Batteries - CR2032 coin cells (2x per board 300 min, 6x per board 900 preferred)
+        * QTY 100 (20x5 pack)  From [https://www.amazon.com/](https://www.amazon.com/) cost $23.99
+        * QTY 100 (4x25 pack)  From [https://www.amazon.com/](https://www.amazon.com/) cost $18.99
+        * QTY 100 (20x5 pack)  From [https://www.amazon.com/](https://www.amazon.com/) cost $23.97
+        * PROJECTED QTY 600 @ ~0.30/pc = $180
 * Production accessories (lanyard, etc.)
     * Lanyard, simple satin with swivel J-hook
         * QTY 100 BLACK From [https://www.amazon.com/](https://www.amazon.com/) cost $20.99
         * QTY 100 GREEN From [https://www.amazon.com/](https://www.amazon.com/) cost $16.99
-        * PROJECTED QTY 100 @ ~$20/100 = $20
+        * QTY 100 BLACK From [https://www.amazon.com/](https://www.amazon.com/) cost $20.99
     * Anti-static Resealable Bag for components
         * QTY 100 From [https://www.amazon.com/](https://www.amazon.com/) cost $11.00
-        * PROJECTED QTY 100 @ ~$11/100 = $11
+        * QTY 100 From [https://www.amazon.com/](https://www.amazon.com/) cost $18.68
     * Rubber Bands Wide for securing component bag to PCB for distribution
         * QTY 3 Bags From [https://www.amazon.com/](https://www.amazon.com/) cost $11.99
     * Self Adhesive Velcro for battery attachment
@@ -81,11 +93,11 @@ Here is a list of actual expenses (so far) and projected expenses by category:
 | Category                     | Actual    | Projected | Total     |
 | ---------------------------- |:---------:|:---------:|:---------:|
 | Prototype board manufacture  | $40.84    | $0.00     | $40.84    |
-| Prototype test components    | $235.15   | $0.00     | $235.15   |
-| Production board manufacture | $0.00     | $945.00   | $945.00   |
-| Production components        | $370.49   | $453.00   | $823.49   |
-| Production accessories       | $68.86    | $47.00    | $115.86   |
-| Totals                       | $715.34   | $1445.00  | $2160.34  |
+| Prototype test components    | $280.27   | $0.00     | $280.27   |
+| Production board manufacture | $840.20   | $0.00     | $840.20   |
+| Production components        | $808.17   | $236.00   | $1044.17  |
+| Production accessories       | $108.53   | $16.00    | $124.53   |
+| Totals                       | $2078.01  | $252.00   | $2330.01  |
 
 ## Unit Cost Breakdown
 
@@ -100,8 +112,8 @@ Notes on the unit cost breakdown:
 
 | Category                                   | Total     | Qty | Unit Cost |
 | ------------------------------------------ |:---------:|:---:|:---------:|
-| PCB and Lanyard Only                       | $668.43   | 150 | $4.46     |
-| Kit including PCB, Lanyard, and Components | $1491.92  | 150 | $9.95     |
+| PCB and Lanyard Only                       | $642.92   | 150 | $4.29     |
+| Kit including PCB, Lanyard, and Components | $1687.09  | 150 | $11.25    |
 
 How these numbers were derived:
 * PCB/Lanyard Cost is (Prototype board manufacture /2) + (Prototype test components /2) + (Production board manufacture /2) + (Production accessories /2)
@@ -116,15 +128,15 @@ With that in mind these are the current price points (subject to change):
 
 | Category                                   | Price | Avail Qty | Potential Non-Profit Revenue |
 | ------------------------------------------ |:-----:|:---------:|:----------------------------:|
-| PCB and Lanyard Only                       | $10   | 40        | $400.00 - $178.40 = $221.60  |
-| Kit including PCB, Lanyard, and Components | $20   | 40        | $800.00 - $398.00 = $402.00  |
+| PCB and Lanyard Only                       | $10   | 40        | $400.00 - $171.60 = $228.40  |
+| Kit including PCB, Lanyard, and Components | $20   | 40        | $800.00 - $450.00 = $350.00  |
 
 #### Hacker Summer Camp Prices
 
 | Category                                   | Price | Avail Qty | Potential Non-Profit Revenue   |
 | ------------------------------------------ |:-----:|:---------:|:------------------------------:|
-| PCB and Lanyard Only                       | $20   | 110       | $2200.00 - $490.60 = $1709.40  |
-| Kit including PCB, Lanyard, and Components | $40   | 110       | $4400.00 - $1094.50 = $3305.50 |
+| PCB and Lanyard Only                       | $20   | 110       | $2200.00 - $471.90 = $1728.10  |
+| Kit including PCB, Lanyard, and Components | $40   | 110       | $4400.00 - $1237.50 = $3162.50 |
 
 Our goal is to raise $5k for the non-profit BSidesDFW after expenses.
 These price points will get us there if we sell all 300 boards.
@@ -132,3 +144,8 @@ These price points will get us there if we sell all 300 boards.
 ## Updates
 
 As the projected costs are flushed out with actual costs this will be updated.
+
+Most of the Actual costs are in place now.
+Coming in a bit higher than projected but within tolerance.
+Switching to a coin cell battery design instead of 9V accounts for the extra costs.
+But this is worth it in the end as it is a better design.
