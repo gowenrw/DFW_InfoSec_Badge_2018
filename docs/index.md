@@ -25,7 +25,7 @@ All funds raised by the sale of this badge after production costs will go to BSi
 
 These badges will be sold at [BSidesLV](https://www.bsideslv.org/) and [DEFCON](https://defcon.org/).
 
-The kit will cost **$40.00** and just the PCB with no components will cost **$20.00** .
+The full kit will cost **$40.00** and just the PCB with no components will cost **$20.00** .
 
 Early bird adopters (DFW area sales prior to hacker summer camp) will get them for half off.
 
@@ -54,6 +54,23 @@ Here is a complete list of the items included in the kit:
 * 1x 9v battery holder (optional replacement for above, 9v battery not included)
 * 1 inch of Velcro adhesive strips (for battery holder attachment)
 
+## Assembly Instructions
+
+Coming Soon!
+
+## Arduino Code for the Badge
+
+The arduino that came in the kit should have been loaded with code that will work with your badge.
+This code walks different colors around the star of the badge by turning on and off LEDs.
+This code is available here:
+[DFW-InfoSec-Badge-Color_Walk_low_power](https://raw.githubusercontent.com/gowenrw/DFW_InfoSec_Badge_2018/master/DFW-InfoSec-Badge-Color_Walk_low_power/DFW-InfoSec-Badge-Color_Walk_low_power.ino)
+
+There is a version of this code that lights multiple LEDs at once when walking color around the badge.
+This version uses more power which is why it was not loaded by default.
+This code is available here:
+[DFW-InfoSec-Badge-Color_Walk](https://raw.githubusercontent.com/gowenrw/DFW_InfoSec_Badge_2018/master/DFW-InfoSec-Badge-Color_Walk/DFW-InfoSec-Badge-Color_Walk.ino)
+
+There are more code example in the github repository that you may want to check out.
 
 
 
