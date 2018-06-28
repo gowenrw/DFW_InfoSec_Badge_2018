@@ -1,6 +1,141 @@
-# DFW_InfoSec_Badge_2018
+![Hero Image](https://raw.githubusercontent.com/gowenrw/DFW_InfoSec_Badge_2018/master/docs/DFW_Hacker_Badge_Banner.jpg)
 
-Files related to the DFW InfoSec Badge 2018
+# DFW Hacker Badge
+
+Welcome to the DFW Hacker Badge website.
+
+This is where you will find all the details of our badge including the components in the kit, assembly instructions, and code.
+
+Please allow me to be your guide.
+
+-- [@alt_bier](https://twitter.com/alt_bier)
+
+## DIY Badge... Say What?!?
+
+Yes, you read it correctly.  This is a DIY badge.  Some assembly required.
+We will not be selling assembled badges.
+
+This badge was designed to be an educational badge.
+
+Building the badge from our kit will help teach people basic Electronics and Soldering skills
+as well as Arduino Hardware Development and Programming skills.
+
+To assist those without these skills I will link to online training that I created later on this page.
+I will also be doing in person badge building classes at the following locations:
+
+* A local DFW area badge building class will be scheduled in mid July.
+    * This will be scheduled on [TheLab.ms Meetup page](https://www.meetup.com/TheLab-ms/)
+    * I will update this page and post to twitter the details once available.
+* At BSidesLV I will find a nice corner to hang out and sell badges and answer any questions
+    * I will post here and to twitter where and when that is once I know.
+* At DEFCON I will be in the Hardware Hacking Village to sell badges and give building assistance
+    * I'll post here and to twitter when I'll be at the HHV once my schedule is sorted.
+* At BSidesDFW in Nov I will be running the Hardware Hacking Village featuring badge building.
+    * This will be a much more comprehensive set of classes covering PCB design through badge assembly.
+    * Details will be posted to BSidesDFW communications closer to that event.
+
+## Show Me The Money!
+
+All funds raised by the sale of this badge after production costs will go to BSidesDFW which is a 501c3 non-profit.
+
+These badges will be sold at [BSidesLV](https://www.bsideslv.org/) and [DEFCON](https://defcon.org/).
+
+The full kit will cost **$40.00** and just the PCB with no components will cost **$20.00** .
+
+Early bird adopters (DFW area sales prior to hacker summer camp) will get them for half off.
+
+A complete financial overview of the project including production costs is stored in this repo
+and is available [HERE](https://github.com/gowenrw/DFW_InfoSec_Badge_2018/blob/master/Financials.md) for review.
+
+## What's In The Kit?
+
+The badge kit will contain everything you see pictured below.
+
+![Badge Kit Image](https://raw.githubusercontent.com/gowenrw/DFW_InfoSec_Badge_2018/master/docs/DFW_Hacker_Badge_Kit.jpg)
+
+Here is a complete list of the items included in the kit:
+
+* 1x Beer Bottle Shaped PCB
+* 1x Lanyard (black or green)
+* 1x Arduino Nano (pre-loaded with badge code)
+* 1x USB A to Mini-B Cable (for programming the Arduino)
+* 5x RGB LEDs 5mm 4pin diffused (recommended LEDs)
+* 5x RGB LEDs 5mm 4pin clear (optional LEDs to replace above for clear aesthetic)
+* 15x 470 ohm resistors (recommended resistors)
+* 15x 220 ohm resistors (optional to replace above for brighter LEDs and shorter battery life)
+* 1x 1x2 male header pins (optional use for power pins)
+* 1x 1x2 female header pins (optional use for power pins)
+* 1x 6v 2xCR2032 coin cell battery holder (recommended battery holder)
+* 4x CR2032 coin cell batteries (two sets for above)
+* 1x 9v battery holder (optional replacement for above, 9v battery not included)
+* 1 inch of Velcro adhesive strips (for battery holder attachment)
+
+## Assembly Instructions
+
+Detailed assembly instructions with pictures: __Coming Soon!__
+
+Here is a basic list of what you need to do:
+
+* Add the Arduino to the PCB
+    * Plug the Arduino into the front of the PCB by pushing its header pins into the appropriate holes
+    * It should be a tight fit but make sure the Arduino is pushed all the way down
+    * Flip the PCB over so that the header pins poking through are clearly visible
+    * Solder each pin to the pad surrounding the hole on the PCB
+    * Inspect each solder joint and correct as needed
+    * On the backside of the PCB cut the header pins off just above the solder joint
+* Add the resistors to the PCB
+    * Unlike the header pins on the Arduino, the resistors have soft leads that are easy to bend
+    * Bend each resistor into a U shape (with the resistor at the bottom of the U)
+    * Push each resistors leads into appropriate holes in the front of the PCB
+    * This will be a very loose fit so take care to hold the resistor in place as you flip the PCB over
+    * On the back of the PCB bend the leads outward at 45 to 90 degrees to hold the resistor in place
+    * Solder each lead of the resistor to the pad surrounding the hole on the PCB
+    * Inspect each solder joint and correct as needed
+    * On the backside of the PCB cut the leads off just above the solder joint
+* Add the LEDs to the PCB
+    * Plug each LED into the front of the PCB by pushing its header pins into the appropriate holes
+    * Make sure you orient the LED correctly so the common cathode pin goes into the correct hole.
+        * Each LED will have one pin longer than the others, this is the common cathode pin
+        * You can tell the common cathode hole on the PCB by looking at the traces on the back
+        * The common cathode holes for all five LEDs will be connected together by traces
+    * It'll be a tight fit but make sure the LED is pushed all the way down to the pin stops
+    * Flip the PCB over so that the LED pins poking through are clearly visible
+    * Solder each pin to the pad surrounding the hole on the PCB
+    * Inspect each solder joint and correct as needed
+    * On the backside of the PCB cut the pins off just above the solder joint
+* Add the battery connector to the PCB
+    * Plug the bare ends of the lead wires for the battery connector into the power holes in the PCB
+    * Secure the wires in place so that the bare wires do not move in the PCB holes
+    * Solder each wire to the pad surrounding the hole on the PCB
+    * Inspect each solder joint and correct as needed
+    * Cut any excess wire off just beyond the solder joint
+* Insert batteries and Turn it On     
+
+If you are new to soldering you should review this training material I put together:
+[Electronics Soldering Basics](http://solder.altbier.us/)
+
+## Arduino Code for the Badge
+
+The Arduino that came in the kit should have been loaded with code that will work with your badge.
+This code walks different colors around the star of the badge by turning on and off LEDs.
+
+This code is available here:
+[DFW-InfoSec-Badge-Color_Walk_low_power](https://raw.githubusercontent.com/gowenrw/DFW_InfoSec_Badge_2018/master/DFW-InfoSec-Badge-Color_Walk_low_power/DFW-InfoSec-Badge-Color_Walk_low_power.ino)
+
+There is a version of this code that lights multiple LEDs at once when walking color around the badge.
+This version uses more power which is why it was not loaded by default.
+
+This code is available here:
+[DFW-InfoSec-Badge-Color_Walk](https://raw.githubusercontent.com/gowenrw/DFW_InfoSec_Badge_2018/master/DFW-InfoSec-Badge-Color_Walk/DFW-InfoSec-Badge-Color_Walk.ino)
+
+There are more code examples in the github repository that you may want to check out.
+
+If you are new to the Arduino you should review this training material I put together:
+[Arduino for Beginners](http://arduino.altbier.us/)
+
+---
+
+# Badge Details
 
 ## Story
 
@@ -13,14 +148,12 @@ This year was no different.  But, I really didn't want to let it go this time.
 
 So, with no PCB creation experience and severe time limitation I set out on the quest for the badge.
 
---@alt_bier
-
 ## Timeline and Simplicity
 
 I figured in order to make the timeline I would have to keep the board simple.
 
-Given my lack of PCB experience, I decided to fall back on my hardware development board experience. 
- 
+Given my lack of PCB experience, I decided to fall back on my hardware development board experience.
+
 This allowed for the creation of a board that is just traces, pads, holes, and silkscreen art... simple.
 
 All the components which include an Arduino Nano with some RGB LEDs will need to be added in post.
@@ -53,10 +186,11 @@ This is where I ran into a problem.  Fritzing requires width and height be speci
 This is regardless of any viewBox that may be present.
 Illustrator exports with a viewBox only, so I needed to manually add the width and height
 matching the viewBox values.
-Here is what this looks like post my edit:
+
+Here is what this looks like after my edit:
 ```
-<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg" 
-xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"  y="0px" 
+<svg version="1.2" baseProfile="tiny" xmlns="http://www.w3.org/2000/svg"
+xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"  y="0px"
 width="248" height="832" viewBox="0 0 248 832" xml:space="preserve">
 ```
 
@@ -89,9 +223,9 @@ It's some simple sloppy code, but got the job done... the circuit works.
 
 ##### Code Limitation
 
-Because of the specific pins I had to use to each LED in order to keep it single layer, one 
-of the limitations is that most the LEDs do not have all three colors on analog or pwm pins. 
- 
+Because of the specific pins I had to use to each LED in order to keep it single layer, one
+of the limitations is that most the LEDs do not have all three colors on analog or pwm pins.
+
 These are the pins that allow you to do ```analogWrite``` to fade an LED on or off.
 
 Since only ```digitalWrite``` will need to be used for consistency this means the RGB LED colors will be
@@ -129,15 +263,10 @@ I was planning on the white silkscreen anyway, so with a green bottle we will be
 ## Summary
 
 This crazy badge creation bug got in my head at a DHA meeting on a Wednesday night and seven days later
-I have a badge PCB prototype run on order and will be presenting this at a DC214 meeting.
+I had a badge PCB prototype run on order and presented it at the DC214 meeting.
 
 One week from start to finish is not bad considering I've never done this before.
 
 I just hope it turns out good and that people receiving the badges are not too mad about all the soldering needed to make it functional.
 
---@alt_bier
-
-
-
-
- 
+-- [@alt_bier](https://twitter.com/alt_bier)
