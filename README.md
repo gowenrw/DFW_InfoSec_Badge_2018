@@ -36,7 +36,8 @@ I will also be doing in person badge building classes at the following locations
 
 ## Show Me The Money!
 
-All funds raised by the sale of this badge after production costs will go to BSidesDFW which is a 501c3 non-profit.
+All funds raised by the sale of this badge after production costs will go to
+[BSidesDFW](http://www.bsidesdfw.com/) which is a 501c3 non-profit.
 
 These badges will be sold at [BSidesLV](https://www.bsideslv.org/) and [DEFCON](https://defcon.org/).
 
