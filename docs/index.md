@@ -28,8 +28,8 @@ To assist those without these skills I will link to online training that I creat
 I will also be doing in person badge building classes at the following locations:
 
 * A local DFW area badge building class will be scheduled in mid July.
-    * This will be scheduled on [TheLab.ms Meetup page](https://www.meetup.com/TheLab-ms/)
-    * I will update this page and post to twitter the details once available.
+    * This class has been scheduled for Tuesday July 17th at 6:30PM.
+    * Sign up for the class via this Meetup link: [DFW Hacker Badge Building](https://www.meetup.com/TheLab-ms/events/252229891/)
 * At BSidesLV I will find a nice corner to hang out and sell badges and answer any questions
     * I will post here and to twitter where and when that is once I know.
 * At DEFCON I will be in the Hardware Hacking Village to sell badges and give building assistance
