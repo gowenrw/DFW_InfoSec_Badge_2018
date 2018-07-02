@@ -77,7 +77,7 @@ Here is a complete list of the items included in the kit:
 
 ## Assembly Instructions
 
-Detailed assembly instructions with pictures: __Coming Soon!__
+__[Click Here for detailed assembly instructions with pictures](./assembly.html)__
 
 Here is a basic list of what you need to do:
 
