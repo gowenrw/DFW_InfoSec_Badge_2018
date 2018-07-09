@@ -28,8 +28,7 @@ Here is a list of actual expenses (so far) and projected expenses by category:
         * QTY 10 From [https://jlcpcb.com/](https://jlcpcb.com/) cost $40.84
 * Prototype test components
     * Various components to test with including three types of RGB LED's, resistors, header pins, 9V battery connectors, etc.
-        * QTY Varies From [https://lcsc.com/](https://lcsc.com/) cost $80.52
-        * Shipping on above cost $38.00
+        * QTY Varies From [https://lcsc.com/](https://lcsc.com/) cost $80.52 shipping $38.00
     * Different Resistors from above and more Solder
         * QTY Varies From [https://www.amazon.com/](https://www.amazon.com/) cost $38.13
     * 9V Batteries
@@ -41,8 +40,7 @@ Here is a list of actual expenses (so far) and projected expenses by category:
     * CR2016 Batteries
         * QTY 10 From [https://www.amazon.com/](https://www.amazon.com/) cost $6.99
     * Arduino Nano V3 boards
-        * QTY 20 From [https://www.ebay.com](https://www.ebay.com) cost $59.98
-        * Shipping on above cost $6.00
+        * QTY 20 From [https://www.ebay.com](https://www.ebay.com) cost $59.98 shipping $6.00
     * USB Cable A Male to Mini-B Male (for programming Arduino's)
         * QTY 20 From [https://www.amazon.com/](https://www.amazon.com/) cost $26.98
 * Production board manufacture
@@ -51,29 +49,34 @@ Here is a list of actual expenses (so far) and projected expenses by category:
         * Shipping on above cost $240.78
 * Production components
     * Arduino Nano V3 boards
-        * QTY 10 From [https://www.ebay.com](https://www.ebay.com) cost $27.50
-        * Shipping on above cost $4
+        * QTY 10 From [https://www.ebay.com](https://www.ebay.com) cost $27.50 shipping $4.00
         * QTY 10 From [https://www.ebay.com](https://www.ebay.com) cost $27.50 (free shipping)
-        * PROJECTED QTY 10 @ ~$3/pc = $30
     * USB Cable A Male to Mini-B Male (for programming Arduino's)
         * QTY 10 From [https://www.amazon.com/](https://www.amazon.com/) cost $12.99
-        * PROJECTED QTY 20 @ ~$1.30/pc = $26
     * Arduino Nano V3 boards (CH340 USB chip) INCLUDING USB Cable A Male to Mini-B Male
-        * QTY 100 From [https://www.alibaba.com/](https://www.alibaba.com/) cost $286.00
-        * Shipping on above cost $40
+        * QTY 100 From [https://www.alibaba.com/](https://www.alibaba.com/) cost $286.00 shipping $40.00
         * QTY 10 From [https://www.ebay.com](https://www.ebay.com) cost $33.80 (free shipping)
-        * QTY 20 From [https://www.ebay.com](https://www.ebay.com) cost $68.36 (free shipping)
+        * QTY 20 From [https://www.ebay.com](https://www.ebay.com) cost $68.36 shipping $11.96
+        * QTY 10 From [https://www.ebay.com](https://www.ebay.com) cost $34.18 shipping $5.98
     * RGB LEDs and Resistors
         * QTY 600 LEDs and resistors and headers From [https://lcsc.com/](https://lcsc.com/) cost inc. shipping $101.01
         * QTY 500 LEDs From [https://www.alibaba.com/](https://www.alibaba.com/) cost inc. shipping $53.20
     * Battery Holder - 6v 2x3V CR2032 with on/off Switch Lead Wire Type
-        * QTY 30 (4x15 pack) From [https://www.amazon.com/](https://www.amazon.com/) cost $47.96
-        * QTY 120 (10x12 pack)  From [https://www.amazon.com/](https://www.amazon.com/) cost $38.90
-    * Batteries - CR2032 coin cells (2x per board 300 min, 6x per board 900 preferred)
+        * QTY 30 (2x15 pack) From [https://www.amazon.com/](https://www.amazon.com/) cost $47.96
+        * QTY 100 (10x10 pack)  From [https://www.amazon.com/](https://www.amazon.com/) cost $38.90 - May not arrive in time, Need to order more just in case
+        * QTY 30 (2x15 pack) From [https://www.amazon.com/](https://www.amazon.com/) cost $47.96
+        * QTY 10 From [https://www.amazon.com/](https://www.amazon.com/) cost $13.99
+        * QTY 30 (2x15 pack) From [https://www.amazon.com/](https://www.amazon.com/) cost $38.97
+    * Battery Holder - 9v Lead Wire Type
+        * QTY 100 From [https://www.amazon.com/](https://www.amazon.com/) cost $12.00
+    * Batteries - CR2032 coin cells (4x per kit plus 100 spares / replacements = 700 total)
         * QTY 100 (20x5 pack)  From [https://www.amazon.com/](https://www.amazon.com/) cost $23.99
         * QTY 100 (4x25 pack)  From [https://www.amazon.com/](https://www.amazon.com/) cost $18.99
         * QTY 100 (20x5 pack)  From [https://www.amazon.com/](https://www.amazon.com/) cost $23.97
-        * PROJECTED QTY 600 @ ~0.30/pc = $180
+        * QTY 100 (20x5 pack Sony)  From [https://www.ebay.com](https://www.ebay.com) cost $53.97 Free Shipping
+        * QTY 100 (20x5 pack)  From [https://www.ebay.com](https://www.ebay.com) cost $46.59 Free Shipping
+        * QTY 100 (20x5 pack Energizer)  From [https://www.ebay.com](https://www.ebay.com) cost $65.68 Free Shipping
+        * QTY 100 (20x5 pack)  From [https://www.ebay.com](https://www.ebay.com) cost $32.84 Free Shipping
 * Production accessories (lanyard, etc.)
     * Lanyard, simple satin with swivel J-hook
         * QTY 100 BLACK From [https://www.amazon.com/](https://www.amazon.com/) cost $20.99
@@ -86,7 +89,10 @@ Here is a list of actual expenses (so far) and projected expenses by category:
         * QTY 3 Bags From [https://www.amazon.com/](https://www.amazon.com/) cost $11.99
     * Self Adhesive Velcro for battery attachment
         * QTY 1inx15ft From [https://www.amazon.com/](https://www.amazon.com/) cost $7.89
-        * PROJECTED QTY 1inx30ft @ ~$8/15ft = $16
+        * QTY 1inx30ft From [https://www.amazon.com/](https://www.amazon.com/) cost $15.96
+    * Shipping to Vegas
+        * Shipping Supplies PROJECTED cost $40
+        * Shipping Fees (UPS/FEDEX/Etc.) PROJECTED cost $80
 
 #### Expense Table
 
@@ -95,9 +101,9 @@ Here is a list of actual expenses (so far) and projected expenses by category:
 | Prototype board manufacture  | $40.84    | $0.00     | $40.84    |
 | Prototype test components    | $280.27   | $0.00     | $280.27   |
 | Production board manufacture | $840.20   | $0.00     | $840.20   |
-| Production components        | $808.17   | $236.00   | $1044.17  |
-| Production accessories       | $108.53   | $16.00    | $124.53   |
-| Totals                       | $2078.01  | $252.00   | $2330.01  |
+| Production components        | $1172.29  | $0.00     | $1172.29  |
+| Production accessories       | $124.49   | $120.00   | $244.49   |
+| Totals                       | $2458.09  | $120.00   | $2578.09  |
 
 ## Unit Cost Breakdown
 
@@ -105,6 +111,7 @@ Notes on the unit cost breakdown:
 * Expenses from above will be divided out across the boards for the unit cost breakdown
 * Total PCB count of 300
 * Total kits (components to be paired with PCBs above) of 150
+    * NOTE: Based on the increased number of DFW area kit sales I may need to source additional kits
 * Not counting the 10 prototype boards since they will get messed up in testing
 * Including prototype costs in the overall costs for the production unit breakdown
 
@@ -112,8 +119,8 @@ Notes on the unit cost breakdown:
 
 | Category                                   | Total     | Qty | Unit Cost |
 | ------------------------------------------ |:---------:|:---:|:---------:|
-| PCB and Lanyard Only                       | $642.92   | 150 | $4.29     |
-| Kit including PCB, Lanyard, and Components | $1687.09  | 150 | $11.25    |
+| PCB and Lanyard Only                       | $702.90   | 150 | $4.69     |
+| Kit including PCB, Lanyard, and Components | $1875.19  | 150 | $12.50    |
 
 How these numbers were derived:
 * PCB/Lanyard Cost is (Prototype board manufacture /2) + (Prototype test components /2) + (Production board manufacture /2) + (Production accessories /2)
@@ -128,18 +135,20 @@ With that in mind these are the current price points (subject to change):
 
 | Category                                   | Price | Avail Qty | Potential Non-Profit Revenue |
 | ------------------------------------------ |:-----:|:---------:|:----------------------------:|
-| PCB and Lanyard Only                       | $10   | 40        | $400.00 - $171.60 = $228.40  |
-| Kit including PCB, Lanyard, and Components | $20   | 40        | $800.00 - $450.00 = $350.00  |
+| PCB and Lanyard Only                       | $10   | 40        | $400.00 - $187.60 = $212.40  |
+| Kit including PCB, Lanyard, and Components | $20   | 70        | $1400.00 - $875.00 = $525.00 |
 
 #### Hacker Summer Camp Prices
 
 | Category                                   | Price | Avail Qty | Potential Non-Profit Revenue   |
 | ------------------------------------------ |:-----:|:---------:|:------------------------------:|
-| PCB and Lanyard Only                       | $20   | 110       | $2200.00 - $471.90 = $1728.10  |
-| Kit including PCB, Lanyard, and Components | $40   | 110       | $4400.00 - $1237.50 = $3162.50 |
+| PCB and Lanyard Only                       | $20   | 110       | $2200.00 - $515.90 = $1684.10  |
+| Kit including PCB, Lanyard, and Components | $40   | 80        | $3200.00 - $1000.00 = $2200.00 |
 
-Our goal is to raise $5k for the non-profit BSidesDFW after expenses.
-These price points will get us there if we sell all 300 boards.
+Our goal was to raise $5k for the non-profit BSidesDFW after expenses.
+These price points will get us close to that goal.
+But higher than anticipated early adopter kit purchases means we may need to source parts for
+to turn some more of the PCBs into kits to meet that goal. 
 
 ## Updates
 
