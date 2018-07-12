@@ -49,37 +49,37 @@ int LED[5][3] = {
 
 /*  Notes and durations and LED states of the melody to be played.
  *  Uncomment only one of each of the following for a specific melody: 
- *  
+ *  numNotes, melodyNotes, noteDurations, and lightLeds
+ *  numNotes = number of notes in the melody
+ *  melodyNotes = notes that make up the melody from pitches.h constants
+ *  noteDurations = 1 full note 2 half note 4 quarter note 8 eighth note...
  */
- 
-// ***** Notes in the melody to be played *****
 
 // basic test melody (shave and a haircut):
 /*
+int numNotes = 8;
 int melodyNotes[] = {
   NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4
 };
-*/
-
-// Deep In The Heart Of Texas :
-int melodyNotes[] = {
-  NOTE_C3, NOTE_F3, NOTE_F3, NOTE_A4, 0, NOTE_C3, NOTE_F3, NOTE_F3, NOTE_A4, 0, NOTE_E3, NOTE_E3, NOTE_E3, NOTE_E3, 0, NOTE_C4, NOTE_C4, NOTE_C4, NOTE_C4, NOTE_D4, NOTE_A4, NOTE_G3
-}; 
-
-
-// ***** Note Durations: 4 = quarter note, 8 = eighth note, etc. *****
-
-// basic test melody (shave and a haircut):
-/*
 int noteDurations[] = {
   4, 8, 8, 4, 4, 4, 4, 4
 };
 */
 
 // Deep In The Heart Of Texas :
+int numNotes = 24;
+int melodyNotes[] = {
+  NOTE_C3, NOTE_F3, NOTE_F3, NOTE_A3, 0, 
+  NOTE_C3, NOTE_F3, NOTE_F3, NOTE_A3,
+  NOTE_E4, 0, NOTE_E4, 0, NOTE_E4, 0, NOTE_E4, 0, 
+  NOTE_C4, NOTE_C4, NOTE_C4, NOTE_C4, NOTE_D4, NOTE_A3, NOTE_G3
+}; 
 int noteDurations[] = {
-  4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 8, 8, 8, 8, 4, 4, 4, 4, 4, 4, 4, 4
-};
+  5, 3, 3, 2, 16, 
+  5, 3, 3, 4,
+  32, 8, 32, 8, 32, 8, 32, 8,
+  5, 6, 6, 3, 5, 4, 3
+}; 
 
 
 void setup() {
@@ -118,7 +118,7 @@ void setup() {
    *  sizeof(melodyNotes) not working
    */
   // iterate over the notes of the melody:
-  for (int thisNote = 0; thisNote < 22; thisNote++) {
+  for (int thisNote = 0; thisNote < numNotes; thisNote++) {
 
     // to calculate the note duration, take one second divided by the note type.
     //e.g. quarter note = 1000 / 4, eighth note = 1000/8, etc.
