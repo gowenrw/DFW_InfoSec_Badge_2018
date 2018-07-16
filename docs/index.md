@@ -275,3 +275,27 @@ One week from start to finish is not bad considering I've never done this before
 I just hope it turns out good and that people receiving the badges are not too mad about all the soldering needed to make it functional.
 
 -- [@alt_bier](https://twitter.com/alt_bier)
+
+---
+
+# Badge Hacks
+
+So, just twenty four hours after the first badge sale it was hacked!
+
+I will tag any badge hacks I am made aware of to the end of this page.
+
+## Neopixel Hack (First hack of this badge!)
+
+TheLab.ms did an awesome job hacking the badge by replacing the dumb RGB LEDs with smart neopixel
+type LEDS and the result looks awesome.  Photos and code TBA.
+
+## Add Sound Hack
+
+Not to be outdone, I have also hacked the badge to add sound to it via a tiny speaker placed
+in the center of the star which plays "Deep in the heart of Texas" to an LED light show.
+
+The code for this is here:
+[Add-Sound](https://github.com/gowenrw/DFW_InfoSec_Badge_2018/tree/master/hacks/add-sound)
+
+A small video of this hack in action is available here:
+[DFW_Hacker_Badge_Add_Sound_Hack](https://raw.githubusercontent.com/gowenrw/DFW_InfoSec_Badge_2018/master/hacks/add-sound/DFW_Hacker_Badge_Audio_Hack.mp4)

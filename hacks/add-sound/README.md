@@ -8,4 +8,10 @@ connected to unused Arduino pins and program it to play sounds in sync with LED 
 The idea of playing sounds without the need for a sound file came from this project:
 https://www.arduino.cc/en/Tutorial/toneMelody
 
-NOTE: This is a work in progress and not yet complete.
+I got it to play "Deep in the heart of Texas" on a tiny speaker plugged into A5 and GND.
+
+The code is up to date now.
+
+I made a small video of it working which is posted here as well.
+
+Enjoy.

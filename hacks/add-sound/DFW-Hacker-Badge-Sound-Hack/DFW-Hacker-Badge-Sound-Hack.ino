@@ -53,33 +53,47 @@ int LED[5][3] = {
  *  numNotes = number of notes in the melody
  *  melodyNotes = notes that make up the melody from pitches.h constants
  *  noteDurations = 1 full note 2 half note 4 quarter note 8 eighth note...
+ *  lightLeds = which LEDs to light for each note played, where each sub-element is
+ *    an LED bitvector value 0=off, 1=red, 2=green, 4=blue (3=R&G 5=R&B 6=G&B 7=ALL)
  */
 
 // basic test melody (shave and a haircut):
 /*
 int numNotes = 8;
-int melodyNotes[] = {
+int melodyNotes[8] = {
   NOTE_C4, NOTE_G3, NOTE_G3, NOTE_A3, NOTE_G3, 0, NOTE_B3, NOTE_C4
 };
-int noteDurations[] = {
+int noteDurations[8] = {
   4, 8, 8, 4, 4, 4, 4, 4
 };
 */
 
 // Deep In The Heart Of Texas :
 int numNotes = 24;
-int melodyNotes[] = {
+int melodyNotes[24] = {
   NOTE_C3, NOTE_F3, NOTE_F3, NOTE_A3, 0, 
   NOTE_C3, NOTE_F3, NOTE_F3, NOTE_A3,
-  NOTE_E4, 0, NOTE_E4, 0, NOTE_E4, 0, NOTE_E4, 0, 
-  NOTE_C4, NOTE_C4, NOTE_C4, NOTE_C4, NOTE_D4, NOTE_A3, NOTE_G3
+  NOTE_E4, 0, NOTE_E4, 0, 
+  NOTE_E4, 0, NOTE_E4, 0, 
+  NOTE_C4, NOTE_C4, NOTE_C4, NOTE_C4, NOTE_D4, 
+  NOTE_A3, NOTE_G3
 }; 
-int noteDurations[] = {
+int noteDurations[24] = {
   5, 3, 3, 2, 16, 
   5, 3, 3, 4,
-  32, 8, 32, 8, 32, 8, 32, 8,
-  5, 6, 6, 3, 5, 4, 3
-}; 
+  32, 8, 32, 8, 
+  32, 8, 32, 8,
+  5, 6, 6, 3, 5, 
+  4, 3
+};
+int lightLeds[24][5] = {
+  {0, 4, 0, 4, 0}, {4, 0, 4, 0, 4}, {0, 4, 0, 4, 0}, {4, 0, 4, 0, 4}, {0, 0, 0, 0, 0},
+  {0, 4, 0, 4, 0}, {4, 0, 4, 0, 4}, {0, 4, 0, 4, 0}, {4, 0, 4, 0, 4},
+  {7, 7, 7, 7, 7}, {0, 0, 0, 0, 0}, {7, 7, 7, 7, 7}, {0, 0, 0, 0, 0}, 
+  {7, 7, 7, 7, 7}, {0, 0, 0, 0, 0}, {7, 7, 7, 7, 7}, {0, 0, 0, 0, 0},
+  {0, 4, 0, 4, 0}, {4, 0, 4, 0, 4}, {0, 4, 0, 4, 0}, {4, 0, 4, 0, 4}, {0, 4, 0, 4, 0}, 
+  {4, 0, 4, 0, 4}, {0, 4, 0, 4, 0}
+};
 
 
 void setup() {
@@ -119,6 +133,40 @@ void setup() {
    */
   // iterate over the notes of the melody:
   for (int thisNote = 0; thisNote < numNotes; thisNote++) {
+    // Light LEDs for this note
+    for (int lednum=0; lednum < 5; lednum++) {
+      switch (lightLeds[thisNote][lednum]) {
+        case 7:
+          digitalWrite(LED[lednum][0], HIGH); // R
+          digitalWrite(LED[lednum][1], HIGH); // G
+          digitalWrite(LED[lednum][2], HIGH); // B
+          break;
+        case 6:
+          digitalWrite(LED[lednum][1], HIGH); // G
+          digitalWrite(LED[lednum][2], HIGH); // B
+          break;
+        case 5:
+          digitalWrite(LED[lednum][0], HIGH); // R
+          digitalWrite(LED[lednum][2], HIGH); // B
+          break;
+        case 4:
+          digitalWrite(LED[lednum][2], HIGH); // B
+          break;
+        case 3:
+          digitalWrite(LED[lednum][0], HIGH); // R
+          digitalWrite(LED[lednum][1], HIGH); // G
+          break;
+        case 2:
+          digitalWrite(LED[lednum][1], HIGH); // G
+          break;
+        case 1:
+          digitalWrite(LED[lednum][0], HIGH); // R
+          break;
+        default:
+          // 0 or other = don't turn any on
+          break;
+      }
+    }
 
     // to calculate the note duration, take one second divided by the note type.
     //e.g. quarter note = 1000 / 4, eighth note = 1000/8, etc.
@@ -129,8 +177,12 @@ void setup() {
     // the note's duration + 30% seems to work well:
     int pauseBetweenNotes = noteDuration * 1.30;
     delay(pauseBetweenNotes);
+    
     // stop the tone playing:
     noTone(SPEAKER);
+
+    // Turn Off All LEDs
+    alloff();
   }
 }
 
