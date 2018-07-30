@@ -292,6 +292,9 @@ with smart Neopixel type LEDS and the result looks awesome.
 Here is an awesome write up on this hack:
 [TheLab.ms PL9823 Badge Hack](https://github.com/gowenrw/DFW_InfoSec_Badge_2018/raw/master/hacks/PL9823_DemoCode/DFW_Hackers_Badge-HACKED.pdf)
 
+The code for this hack is here:
+[PL9823_DemoCode](https://github.com/gowenrw/DFW_InfoSec_Badge_2018/tree/master/hacks/PL9823_DemoCode)
+
 This small video shows this hack in action:
 [TheLab.ms_Neopixel_Badge_Hack](https://raw.githubusercontent.com/gowenrw/DFW_InfoSec_Badge_2018/master/hacks/PL9823_DemoCode/TheLab.ms_Neopixel_Badge_Hack.mp4)
 
@@ -300,7 +303,7 @@ This small video shows this hack in action:
 Not to be outdone, I have also hacked the badge to add sound to it via a tiny speaker placed
 in the center of the star which plays "Deep in the heart of Texas" to an LED light show.
 
-The code for this is here:
+The code for this hack is here:
 [Add-Sound](https://github.com/gowenrw/DFW_InfoSec_Badge_2018/tree/master/hacks/add-sound)
 
 A small video of this hack in action is available here:
@@ -310,6 +313,9 @@ A small video of this hack in action is available here:
 
 In one of the best hacks I've seen yet, [@Ridgeback111](https://twitter.com/Ridgeback111) has
 created a WiFi scanner/counter hack of our badge using ESP32 and CiruitPython Express.
+
+The code for this hack is here:
+[WiFighter](https://github.com/gowenrw/DFW_InfoSec_Badge_2018/tree/master/hacks/WiFighter)
 
 Here is a small video of this hack in action:
 [WiFighter_Badge_Hack](https://youtu.be/AukL9QIAfeE)
