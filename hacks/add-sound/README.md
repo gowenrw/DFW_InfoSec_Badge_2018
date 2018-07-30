@@ -12,6 +12,7 @@ I got it to play "Deep in the heart of Texas" on a tiny speaker plugged into A5 
 
 The code is up to date now.
 
-I made a small video of it working which is posted here as well.
+A small video of this hack in action is available here:
+[DFW_Hacker_Badge_Add_Sound_Hack](https://youtu.be/RLlT0CuagGU)
 
 Enjoy.

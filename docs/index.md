@@ -284,10 +284,16 @@ So, just twenty four hours after the first badge sale it was hacked!
 
 I will tag any badge hacks I am made aware of to the end of this page.
 
-## Neopixel Hack (First hack of this badge!)
+## Neopixel PL9823 Hack (First hack of this badge!)
 
-TheLab.ms did an awesome job hacking the badge by replacing the dumb RGB LEDs with smart neopixel
-type LEDS and the result looks awesome.  Photos and code TBA.
+[TheLab.ms](https://thelab.ms) did an awesome job hacking the badge by replacing the dumb RGB LEDs
+with smart Neopixel type LEDS and the result looks awesome.
+
+Here is an awesome write up on this hack:
+[TheLab.ms PL9823 Badge Hack](https://github.com/gowenrw/DFW_InfoSec_Badge_2018/raw/master/hacks/PL9823_DemoCode/DFW_Hackers_Badge-HACKED.pdf)
+
+This small video shows this hack in action:
+[TheLab.ms_Neopixel_Badge_Hack](https://raw.githubusercontent.com/gowenrw/DFW_InfoSec_Badge_2018/master/hacks/PL9823_DemoCode/TheLab.ms_Neopixel_Badge_Hack.mp4)
 
 ## Add Sound Hack
 
@@ -298,4 +304,12 @@ The code for this is here:
 [Add-Sound](https://github.com/gowenrw/DFW_InfoSec_Badge_2018/tree/master/hacks/add-sound)
 
 A small video of this hack in action is available here:
-[DFW_Hacker_Badge_Add_Sound_Hack](https://raw.githubusercontent.com/gowenrw/DFW_InfoSec_Badge_2018/master/hacks/add-sound/DFW_Hacker_Badge_Audio_Hack.mp4)
+[DFW_Hacker_Badge_Add_Sound_Hack](https://youtu.be/RLlT0CuagGU)
+
+## WiFighter Hack
+
+In one of the best hacks I've seen yet, [@Ridgeback111](https://twitter.com/Ridgeback111) has
+created a WiFi scanner/counter hack of our badge using ESP32 and CiruitPython Express.
+
+Here is a small video of this hack in action:
+[WiFighter_Badge_Hack](https://youtu.be/AukL9QIAfeE)

@@ -24,8 +24,8 @@ To assist those without these skills I will link to online training that I creat
 I will also be doing in person badge building classes at the following locations:
 
 * A local DFW area badge building class will be scheduled in mid July.
-    * This will be scheduled on [TheLab.ms Meetup page](https://www.meetup.com/TheLab-ms/)
-    * I will update this page and post to twitter the details once available.
+    * This class has been scheduled for Tuesday July 17th at 6:30PM.
+    * Sign up for the class via this Meetup link: [DFW Hacker Badge Building](https://www.meetup.com/TheLab-ms/events/252229891/)
 * At BSidesLV I will find a nice corner to hang out and sell badges and answer any questions
     * I will post here and to twitter where and when that is once I know.
 * At DEFCON I will be in the Hardware Hacking Village to sell badges and give building assistance
@@ -73,7 +73,7 @@ Here is a complete list of the items included in the kit:
 
 ## Assembly Instructions
 
-Detailed assembly instructions with pictures: __Coming Soon!__
+__[Click Here for detailed assembly instructions with pictures](./assembly.html)__
 
 Here is a basic list of what you need to do:
 
@@ -271,3 +271,41 @@ One week from start to finish is not bad considering I've never done this before
 I just hope it turns out good and that people receiving the badges are not too mad about all the soldering needed to make it functional.
 
 -- [@alt_bier](https://twitter.com/alt_bier)
+
+---
+
+# Badge Hacks
+
+So, just twenty four hours after the first badge sale it was hacked!
+
+I will tag any badge hacks I am made aware of to the end of this page.
+
+## Neopixel PL9823 Hack (First hack of this badge!)
+
+[TheLab.ms](https://thelab.ms) did an awesome job hacking the badge by replacing the dumb RGB LEDs
+with smart Neopixel type LEDS and the result looks awesome.
+
+Here is an awesome write up on this hack:
+[TheLab.ms PL9823 Badge Hack](https://github.com/gowenrw/DFW_InfoSec_Badge_2018/raw/master/hacks/PL9823_DemoCode/DFW_Hackers_Badge-HACKED.pdf)
+
+This small video shows this hack in action:
+[TheLab.ms_Neopixel_Badge_Hack](https://raw.githubusercontent.com/gowenrw/DFW_InfoSec_Badge_2018/master/hacks/PL9823_DemoCode/TheLab.ms_Neopixel_Badge_Hack.mp4)
+
+## Add Sound Hack
+
+Not to be outdone, I have also hacked the badge to add sound to it via a tiny speaker placed
+in the center of the star which plays "Deep in the heart of Texas" to an LED light show.
+
+The code for this is here:
+[Add-Sound](https://github.com/gowenrw/DFW_InfoSec_Badge_2018/tree/master/hacks/add-sound)
+
+A small video of this hack in action is available here:
+[DFW_Hacker_Badge_Add_Sound_Hack](https://youtu.be/RLlT0CuagGU)
+
+## WiFighter Hack
+
+In one of the best hacks I've seen yet, [@Ridgeback111](https://twitter.com/Ridgeback111) has
+created a WiFi scanner/counter hack of our badge using ESP32 and CiruitPython Express.
+
+Here is a small video of this hack in action:
+[WiFighter_Badge_Hack](https://youtu.be/AukL9QIAfeE)
