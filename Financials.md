@@ -23,7 +23,7 @@ up to 180 kits with all the components.
 
 ## Expenses
 
-Here is a list of actual expenses (so far) and projected expenses by category:
+Here is a list of actual expenses ~~and projected expenses~~ by category:
 
 * Prototype board manufacture
     * Prototype PCB boards
@@ -99,8 +99,8 @@ Here is a list of actual expenses (so far) and projected expenses by category:
         * QTY 1inx15ft From [https://www.amazon.com/](https://www.amazon.com/) cost $7.89
         * QTY 1inx30ft From [https://www.amazon.com/](https://www.amazon.com/) cost $15.96
     * Shipping to Vegas
-        * Shipping Supplies PROJECTED cost $40
-        * Shipping Fees (UPS/FEDEX/Etc.) PROJECTED cost $80
+        * Shipping Supplies - Bubble Wrap and Box Tape from Home Depot cost $27.82
+        * Shipping Fees - USPS 4 large flat rate boxes with extra insurance cost $93.60
 
 #### Expense Table
 
@@ -110,16 +110,16 @@ Here is a list of actual expenses (so far) and projected expenses by category:
 | Prototype test components    | $280.27   | $0.00     | $280.27   |
 | Production board manufacture | $840.20   | $0.00     | $840.20   |
 | Production components        | $1423.99  | $0.00     | $1423.99  |
-| Production accessories       | $124.49   | $120.00   | $244.49   |
-| Totals                       | $2709.79  | $120.00   | $2829.79  |
+| Production accessories       | $245.91   | $0.00     | $245.91   |
+| Totals                       | $2831.21  | $0.00     | $2831.21  |
 
 ## Unit Cost Breakdown
 
 Notes on the unit cost breakdown:
 * Expenses from above will be divided out across the boards for the unit cost breakdown
 * Total PCB count of 300
-* Total kits (components to be paired with PCBs above) of 150 (updated to 180)
-    * NOTE: Based on the increased number of DFW area kit sales I may need to source additional kits
+* Total kits (components to be paired with PCBs above) of ~~150~~ 180
+    * NOTE: Based on the increased number of DFW area kit sales I needed to source additional kits
 * Not counting the 10 prototype boards since they will get messed up in testing
 * Including prototype costs in the overall costs for the production unit breakdown
 
@@ -127,8 +127,8 @@ Notes on the unit cost breakdown:
 
 | Category                                   | Total     | Qty | Unit Cost |
 | ------------------------------------------ |:---------:|:---:|:---------:|
-| PCB and Lanyard Only                       | $702.90   | 130 | $5.41     |
-| Kit including PCB, Lanyard, and Components | $2126.89  | 180 | $11.82    |
+| PCB and Lanyard Only                       | $703.61   | 130 | $5.41     |
+| Kit including PCB, Lanyard, and Components | $2127.60  | 180 | $11.82    |
 
 How these numbers were derived:
 * PCB/Lanyard Cost is (Prototype board manufacture /2) + (Prototype test components /2) + (Production board manufacture /2) + (Production accessories /2)
@@ -141,31 +141,27 @@ With that in mind these are the current price points (subject to change):
 
 #### Early Bird Adopters (DFW Area Purchases)
 
-| Category                                   | Price | Avail Qty | Potential Non-Profit Revenue |
-| ------------------------------------------ |:-----:|:---------:|:----------------------------:|
-| PCB and Lanyard Only                       | $10   | 40        | $400.00 - $216.40 = $183.60  |
-| Kit including PCB, Lanyard, and Components | $20   | 80        | $1600.00 - $945.60 = $654.40 |
+| Category                                   | Price | Avail Qty | Potential Non-Profit Revenue  |
+| ------------------------------------------ |:-----:|:---------:|:-----------------------------:|
+| PCB and Lanyard Only                       | $10   | 40        | $400.00 - $216.40 = $183.60   |
+| Kit including PCB, Lanyard, and Components | $20   | 90        | $1800.00 - $1063.80 = $736.20 |
 
 #### Hacker Summer Camp Prices
 
 | Category                                   | Price | Avail Qty | Potential Non-Profit Revenue   |
 | ------------------------------------------ |:-----:|:---------:|:------------------------------:|
 | PCB and Lanyard Only                       | $20   | 80        | $1600.00 - $432.80 = $1167.20  |
-| Kit including PCB, Lanyard, and Components | $40   | 100       | $4000.00 - $1182.00 = $2818.00 |
+| Kit including PCB, Lanyard, and Components | $40   | 90        | $3600.00 - $1063.80 = $2536.20 |
 
-Our goal was to raise $5k for the non-profit BSidesDFW after expenses.
-These price points will get us close to that goal.
-But higher than anticipated early adopter kit purchases means we may need to source parts for
-to turn some more of the PCBs into kits to meet that goal.
+Our original goal was to raise $5k for the non-profit BSidesDFW after expenses.
+These price points will get us close to that goal.  
+Specifically they should bring about $4620 to support BSidesDFW if all sell as planned.
 
 ## Updates
 
-As the projected costs are flushed out with actual costs this will be updated.
+All of the Actual costs are in place now.
 
-Most of the Actual costs are in place now.
-Coming in a bit higher than projected but within tolerance.
-Switching to a coin cell battery design instead of 9V accounts for the extra costs.
-But this is worth it in the end as it is a better design.
-Also added cost to source components for more kits.
+Costs came in higher than originally planned due to switching to a coin cell battery design
+instead of 9V and having to source additional parts to make more kits.
 
-With the exception of shipping costs, most of the actual costs are in place now.
+Will track all sales here after the Vegas conferences are over.
