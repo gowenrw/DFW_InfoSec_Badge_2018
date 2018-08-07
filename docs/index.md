@@ -12,7 +12,7 @@ This is where you will find all the details of our badge including the component
 
 Please allow me to be your guide.
 
--- [@alt_bier](https://twitter.com/alt_bier)
+-- [@alt_bier](https://twitter.com/alt_bier)  - [My Contact Info](https://www.gowen.net/about)
 
 ## DIY Badge... Say What?!?
 
@@ -274,7 +274,7 @@ One week from start to finish is not bad considering I've never done this before
 
 I just hope it turns out good and that people receiving the badges are not too mad about all the soldering needed to make it functional.
 
--- [@alt_bier](https://twitter.com/alt_bier)
+-- [@alt_bier](https://twitter.com/alt_bier) - [My Contact Info](https://www.gowen.net/about)
 
 ---
 
